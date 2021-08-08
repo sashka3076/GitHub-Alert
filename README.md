@@ -12,5 +12,5 @@ GitHub项目监控脚本，使用钉钉/企业微信通知
 
 可使用`crontab`或`windows定时任务`来做定时执行
 
-- 每小时: `0 * * * * python3 /root/githubalert.py >> githubalert.log`
+- 每小时: `0 * * * * python3 githubalert.py >> githubalert.log`
 
